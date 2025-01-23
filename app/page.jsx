@@ -9,10 +9,10 @@ const Home = () => {
         {/* text div below */}
         <div className='text-center xl:text-left'>
           <span className='text-xl '>Software Developer</span>
-          <h1 className='h1 mb-6'>
+          <h1 className='h1 mb-1 '>
             Hello I,m <br/> <span className='text-electricpurple'> Owoicho Enonche</span>
           </h1>
-          <p className='max-w-[500px] mb-9 text-white/65'>
+          <p className='max-w-[500px] mb-4 text-white/65'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor, dignissimos ad id illo sunt totam sequi at consequuntur aspernatur ipsum, natus pariatur qui vero provident molestias! Odit culpa sequi cumque.
           </p>
           {/* button and social media links below */}
@@ -32,7 +32,7 @@ const Home = () => {
           </div>
         </div>
         {/* image div down here  */}
-        <div>
+        <div className='order-1 xl:order-none mb-8 xl:mb-9'>
           <Photo/>
         </div>
       </div>
